@@ -28,7 +28,7 @@ TeamCity is a Java-based build management and continuous integration server. We 
 public WebElement btnFindTrains;  *Here we get access to an element  
 
 @FindBys(@FindBy(className = "ticketType-title"))  
-public List <WebElement> TicketTitles;  *Here we get access to a list  
+public List \<WebElement\> TicketTitles;  *Here we get access to a list  
 
 @FindBy(xpath = "//li[contains(@class, 'journey-item') and contains(@class, 'journey-item--isSelected')]")   
 public WebElement selectedJourney;    *Get a highlighted row by checking for the presence of multiple classes  
